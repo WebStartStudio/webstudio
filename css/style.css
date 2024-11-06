@@ -1,18 +1,40 @@
+@font-face {
+	font-family: "Raleway";
+	src: url('../fonts/Raleway-Bold\ .ttf') format("truetype");
+	font-weight: 700; /* Bold */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url('../fonts/Roboto-Medium\ .ttf') format("truetype");
+	font-weight: 500; /* Medium */
+	font-style: normal;
+}
+
 .container {
 	background-color: FFFFFF;
 	height: 80px;
 	display: flex;
-	justify-content: space-between;
+	
 	align-items: center;
+	padding: 10px 215px;
 }
 
 .logo {
+	width: 20%;
+	font-family: "Raleway";
 	font-size: 26px;
 	font-weight: bold;
+	letter-spacing: 0.6px;
 }
 
 .logo>span {
 	color: #2196F3;
+}
+
+nav {
+	width: 40%;
 }
 
 nav a {
@@ -29,19 +51,22 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	font-size: 14px;
+	font-family: "Roboto";
 }
 
 .contact-info {
 	display: flex;
 	color: #757575;
 	font-size: 14px;
+	font-family: "Roboto";
+	margin-left: auto;
 }
-
 .contact-info p {
 	color: #757575; 
 	display: flex;
 	align-items: center;
 	transition: 0.3s ease;
+	margin-left: 50px;
 }
 
 .contact-info p:hover {
@@ -50,7 +75,8 @@ ul {
 
 .contact-info p img {
 	filter: brightness(0) saturate(100%) invert(37%) sepia(0%) saturate(0%) hue-rotate(165deg) brightness(90%) contrast(90%);
-	transition: filter 0.3s ease; 
+	transition: filter 0.3s ease;
+	margin-right: 10px; 
 }
 
 .contact-info p:hover img {
