@@ -25,7 +25,7 @@
 	display: flex;
 	
 	align-items: center;
-	padding: 10px 215px;
+	padding: 0px 215px;
 }
 
 .logo {
@@ -55,8 +55,10 @@ nav a:hover {
 
 ul {
 	width: 294px;
+	height: 80px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	font-size: 14px;
 	font-family: "Roboto";
 }
@@ -316,4 +318,46 @@ ul {
 .social-icon:hover {
 	background-color: #2196F3; 
 	transform: scale(1.1); 
+}
+
+.clients {
+	padding: 100px 20px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.clients h2 {
+	font-family: "Roboto";
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 0.6px;
+	color: #212121;
+	margin-bottom: 54px;
+}
+
+.clients-logos {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.client-logo {
+	width: 170px;
+	height: 92px;
+	border: 1px solid #AFB1B8;
+	border-radius: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.client-logo img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	transition: filter 0s;
+}
+
+.client-logo:hover img {
+	filter: invert(42%) sepia(85%) saturate(2277%) hue-rotate(180deg) brightness(96%) contrast(92%);
 }
