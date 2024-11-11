@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/nullstyle.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <p class="logo"><a href="index.html"><span>Web</span>Studio</a></p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Studio</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="#contact">Kontakte</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <p><img src="img/icons/mail.svg" alt=""/>info@webstudio.com</p>
+                <p><img src="img/icons/smartphone.svg" alt=""/>+49 123 456 789</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-category="all">Alle</button>
+            <button class="filter-btn" data-category="websites">Websites</button>
+            <button class="filter-btn" data-category="apps">Anwendungen</button>
+            <button class="filter-btn" data-category="design">Design</button>
+            <button class="filter-btn" data-category="marketing">Marketing</button>
+        </div>
+
+        <div class="portfolio-gallery">
+            <!-- Карточка 1 -->
+            <div class="portfolio-item" data-category="websites">
+							<img src="img/pictures/project1.png" alt="Technopark">
+							<div class="portfolio-overlay">
+									<p>Ein modernes Portal für digitale Dienstleistungen mit sicherer Datenübertragung.</p>
+							</div>
+							<p class="project-title">Technopark</p>
+							<p class="project-category">Webseite</p>
+					</div>
+					
+					<!-- Карточка 2 -->
+					<div class="portfolio-item" data-category="design">
+							<img src="img/pictures/project2.png" alt="Golden Star">
+							<div class="portfolio-overlay">
+									<p>Designkonzept für ein neues Restaurant im Stadtzentrum.</p>
+							</div>
+							<p class="project-title">Golden Star</p>
+							<p class="project-category">Design</p>
+					</div>
+					
+					<!-- Карточка 3 -->
+					<div class="portfolio-item" data-category="apps">
+							<img src="img/pictures/project3.png" alt="Prime App">
+							<div class="portfolio-overlay">
+									<p>Eine mobile App für E-Commerce mit einfacher Benutzeroberfläche.</p>
+							</div>
+							<p class="project-title">Prime App</p>
+							<p class="project-category">Anwendung</p>
+					</div>
+					
+					<!-- Карточка 4 -->
+					<div class="portfolio-item" data-category="marketing">
+							<img src="img/pictures/project4.png" alt="Inspiration Campaign">
+							<div class="portfolio-overlay">
+									<p>Marketing-Kampagne für die Einführung eines neuen Produktes.</p>
+							</div>
+							<p class="project-title">Inspiration Campaign</p>
+							<p class="project-category">Marketing</p>
+					</div>
+					
+					<!-- Карточка 5 -->
+					<div class="portfolio-item" data-category="websites">
+							<img src="img/pictures/project5.png" alt="Lab Limited Edition">
+							<div class="portfolio-overlay">
+									<p>Exklusive Webseite für eine limitierte Auflage an hochwertigen Produkten.</p>
+							</div>
+							<p class="project-title">Lab Limited Edition</p>
+							<p class="project-category">Webseite</p>
+					</div>
+					
+					<!-- Карточка 6 -->
+					<div class="portfolio-item" data-category="apps">
+							<img src="img/pictures/project6.png" alt="Health Monitor">
+							<div class="portfolio-overlay">
+									<p>Eine Gesundheits-App zur Überwachung von Fitness und Wohlbefinden.</p>
+							</div>
+							<p class="project-title">Health Monitor</p>
+							<p class="project-category">Anwendung</p>
+					</div>
+					
+					<!-- Карточка 7 -->
+					<div class="portfolio-item" data-category="design">
+							<img src="img/pictures/project7.png" alt="Label Tag">
+							<div class="portfolio-overlay">
+									<p>Modernes Etiketten-Design für Mode- und Lifestyle-Marken.</p>
+							</div>
+							<p class="project-title">Label Tag</p>
+							<p class="project-category">Design</p>
+					</div>
+					
+					<!-- Карточка 8 -->
+					<div class="portfolio-item" data-category="marketing">
+							<img src="img/pictures/project8.png" alt="Global Expansion">
+							<div class="portfolio-overlay">
+									<p>Strategische Kampagne zur Markteinführung in internationalen Märkten.</p>
+							</div>
+							<p class="project-title">Global Expansion</p>
+							<p class="project-category">Marketing</p>
+					</div>
+					
+					<!-- Карточка 9 -->
+					<div class="portfolio-item" data-category="websites">
+							<img src="img/pictures/project9.png" alt="Growing Business">
+							<div class="portfolio-overlay">
+									<p>Eine Business-Website für Startups, die ihr Wachstum beschleunigen möchten.</p>
+							</div>
+							<p class="project-title">Growing Business</p>
+							<p class="project-category">Webseite</p>
+					</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+					<div class="footer-logo">
+						<h2><span>Web</span>Studio</h2>
+						<p>Leipziger Straße 1, Berlin</p>
+						<p>info@webstudio.com</p>
+						<p>+49 123 456 789</p>
+				</div>
+	
+				<div class="footer-social">
+						<h3>FOLGEN SIE UNS</h3>
+						<div class="footer-icons">
+								<a href="#" class="footer-icon"><img src="./img/icons/instagram.svg" alt="Instagram"></a>
+								<a href="#" class="footer-icon"><img src="./img/icons/twitter.svg" alt="Twitter"></a>
+								<a href="#" class="footer-icon"><img src="./img/icons/facebook.svg" alt="Facebook"></a>
+								<a href="#" class="footer-icon"><img src="./img/icons/linkedin.svg" alt="LinkedIn"></a>
+						</div>
+				</div>
+	
+				<div class="footer-subscribe">
+						<h3>ABONNIEREN SIE UNSEREN NEWSLETTER</h3>
+						<form class="subscribe-form">
+								<input type="email" placeholder="E-mail" required>
+								<button type="submit">Abonnieren <img src="./img/icons/send.svg" alt="Senden Icon"></button>
+						</form>
+				</div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
